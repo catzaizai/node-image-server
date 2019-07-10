@@ -63,3 +63,7 @@ requestBody:
 docker build -t node-image-server
 docker run node-image-server
 ```
+
+## License
+
+MIT license
