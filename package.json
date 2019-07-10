@@ -1,0 +1,30 @@
+{
+  "name": "node-image-server",
+  "version": "1.0.0",
+  "description": "node image server",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "keywords": [
+    "echarts",
+    "puppeteer",
+    "image",
+    "screenshot"
+  ],
+  "author": "catzaizai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "dependencies": {
+    "canvas": "^2.5.0",
+    "echarts": "^4.1.0",
+    "express": "^4.16.3",
+    "puppeteer": "^1.18.1"
+  }
+}
